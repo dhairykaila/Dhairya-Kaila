@@ -1,0 +1,62 @@
+.preloader{
+    height: 100vh;
+    width: 100%;
+    /* background-color: #000; */
+    background-color: rgba(224, 219, 219, 0.791);
+    backdrop-filter: blur(15px);
+    color: #eee;
+    border-radius: 70px 70px 0px 0px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#smile img{
+    width: 60px;
+    height: 60px;
+}
+
+.preloader .texts-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 500px;
+    font-size: 25px;
+    font-weight: 400;
+    overflow: hidden;
+    color: #eee;
+    /* margin-bottom: 30%; */
+}
+
+.texts-container span{
+    color: rgb(56, 56, 56);
+}
+
+
+
+
+@media screen and (max-width: 575.5px) {
+    #smile img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .preloader .texts-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 60px;
+        width: 280px;
+        font-size: 16.5px;
+        font-weight: 400;
+        overflow: hidden;
+        color: #eee;
+    }
+}

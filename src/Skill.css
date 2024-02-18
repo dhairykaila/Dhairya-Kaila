@@ -1,0 +1,788 @@
+.skill-main {
+    /* background-color: aqua; */
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    margin-top: 4rem;
+}
+
+.heading-skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+.heading-skill h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.skill-languages {
+    /* border: rgb(255, 0, 0) solid; */
+    /* background-color: #ffffff5f;
+    backdrop-filter: blur(5px); */
+    border-radius: 40px;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.skill-languages p {
+    width: 3rem;
+    height: 1.5rem;
+    color: rgb(0, 0, 0);
+    padding-left: 1rem;
+    /* border: #3d557a solid; */
+}
+
+#html,
+#css,
+#php,
+#js,
+#java,
+#python,
+#dbms,
+#c {
+    padding-left: 18rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1.4rem;
+    transition: all 1s;
+    /* background-color: aqua; */
+}
+
+#skill-html,
+#skill-css,
+#skill-php,
+#skill-js,
+#skill-java,
+#skill-python,
+#skill-dbms,
+#skill-c {
+    width: 50%;
+    height: 15px;
+    background-color: rgb(82, 82, 82);
+    margin-left: 4rem;
+    border-radius: 10px;
+}
+
+#prog-html,
+#prog-css,
+#prog-php,
+#prog-js,
+#prog-java,
+#prog-python,
+#prog-dbms,
+#prog-c {
+    /* width: 85%; */
+    height: 15px;
+    background-color: rgba(255, 255, 255, 0.769);
+    border-radius: 10px;
+}
+
+#prog-css,
+#prog-c,
+#prog-dbms {
+    padding: 1px;
+    width: 85%;
+}
+
+#prog-java,
+#prog-python {
+    width: 70%;
+}
+
+#prog-html {
+    width: 90%;
+}
+
+#prog-js {
+    width: 75%;
+}
+
+#prog-php {
+    width: 80%;
+}
+
+#html:hover,
+#css:hover,
+#php:hover,
+#js:hover,
+#java:hover,
+#python:hover,
+#dbms:hover,
+#c:hover {
+
+    #prog-html,
+    #prog-css,
+    #prog-php,
+    #prog-js,
+    #prog-java,
+    #prog-python,
+    #prog-dbms,
+    #prog-c {
+        background-color: rgba(209, 209, 209, 0.769);
+    }
+
+    #skill-html,
+    #skill-css,
+    #skill-php,
+    #skill-js,
+    #skill-java,
+    #skill-python,
+    #skill-dbms,
+    #skill-c {
+        background-color: rgb(71, 71, 71);
+    }
+
+    p {
+        color: rgba(80, 75, 75, 0.79);
+    }
+}
+
+
+.skill-footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -1rem 0rem 1rem 0rem;
+}
+
+.skill-social-icon {
+    /* background-color: rgb(152, 152, 152); */
+    background-color: rgba(106, 106, 106, 0.524);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    width: 20rem;
+    height: 2.5rem;
+    /* margin-top: 5rem; */
+}
+
+.skill-social-icon img {
+    width: 25px;
+    height: 25px;
+    padding: 0.5rem 1rem 0.5rem 1.4rem;
+    transition: all 300ms ease;
+}
+
+.skill-social-icon img:hover {
+    /* color: rgb(185, 181, 181); */
+    /* filter: drop-shadow(-10px 3px 1px rgba(0, 0, 0, 0.319)); */
+    filter: drop-shadow(10px 5px 2px rgb(42, 41, 41));
+    /* transform: rotateY(180deg); */
+}
+
+
+
+@media screen and (max-width: 575.5px) {
+
+
+    .skill-main {
+        /* background-color: aqua; */
+        display: inline-block;
+        width: 100%;
+        height: 100vh;
+        margin-top: 0rem;
+    }
+
+    .skill-languages p {
+        position: relative;
+        top: -1rem;
+        margin-left: -15rem;
+    }
+
+    .skill-languages p:nth-child(3) {
+        position: relative;
+        top: -1rem;
+        margin-left: -1rem;
+    }
+
+    #html,
+    #css,
+    #php,
+    #js,
+    #java,
+    #python,
+    #dbms,
+    #c {
+        width: 100%;
+        /* background-color: aqua; */
+    }
+
+    #skill-html,
+    #skill-css,
+    #skill-php,
+    #skill-js,
+    #skill-java,
+    #skill-python,
+    #skill-dbms,
+    #skill-c {
+        width: 65%;
+        height: 15px;
+        background-color: rgb(82, 82, 82);
+        margin-left: 0rem;
+        border-radius: 10px;
+        /* background-color: black; */
+    }
+
+    #prog-html,
+    #prog-css,
+    #prog-php,
+    #prog-js,
+    #prog-java,
+    #prog-python,
+    #prog-dbms,
+    #prog-c {
+        /* width: 85%; */
+        height: 15px;
+        background-color: rgba(255, 255, 255, 0.769);
+        border-radius: 10px;
+    }
+
+    #prog-dbms,
+    #prog-css {
+        margin-top: -1px;
+    }
+
+    #prog-c {
+        margin-top: -0.5px;
+    }
+
+    #prog-css,
+    #prog-c,
+    #prog-dbms {
+        /* padding: 1px; */
+        width: 85%;
+    }
+
+    #prog-java,
+    #prog-python {
+        width: 70%;
+    }
+
+    #prog-html {
+        width: 90%;
+    }
+
+    #prog-js {
+        width: 75%;
+    }
+
+    #prog-php {
+        width: 80%;
+    }
+
+    #html:hover,
+    #css:hover,
+    #php:hover,
+    #js:hover,
+    #java:hover,
+    #python:hover,
+    #dbms:hover,
+    #c:hover {
+
+        #prog-html,
+        #prog-css,
+        #prog-php,
+        #prog-js,
+        #prog-java,
+        #prog-python,
+        #prog-dbms,
+        #prog-c {
+            background-color: rgba(209, 209, 209, 0.769);
+        }
+
+        #skill-html,
+        #skill-css,
+        #skill-php,
+        #skill-js,
+        #skill-java,
+        #skill-python,
+        #skill-dbms,
+        #skill-c {
+            background-color: rgb(71, 71, 71);
+        }
+
+        p {
+            color: rgba(80, 75, 75, 0.79);
+        }
+    }
+
+    @media screen and (max-width: 551px) {
+
+        #html,
+        #css,
+        #php,
+        #js,
+        #java,
+        #python,
+        #dbms,
+        #c {
+            width: 100%;
+            margin-left: -0.5rem;
+            /* background-color: aqua; */
+        }
+    }
+
+    @media screen and (max-width: 531px) {
+
+        #html,
+        #css,
+        #php,
+        #js,
+        #java,
+        #python,
+        #dbms,
+        #c {
+            width: 100%;
+            margin-left: -0.7rem;
+            /* background-color: aqua; */
+        }
+    }
+
+    @media screen and (max-width: 500px) {}
+
+    @media screen and (max-width: 481px) {
+
+        #html,
+        #css,
+        #php,
+        #js,
+        #java,
+        #python,
+        #dbms,
+        #c {
+            width: 100%;
+            margin-left: -1rem;
+            /* background-color: aqua; */
+        }
+    }
+
+    @media screen and (max-width: 561px) {
+
+        #html,
+        #css,
+        #php,
+        #js,
+        #java,
+        #python,
+        #dbms,
+        #c {
+            width: 100%;
+            margin-left: -1rem;
+            /* background-color: aqua; */
+        }
+    }
+
+    @media screen and (max-width: 446px) {
+
+        #html,
+        #css,
+        #php,
+        #js,
+        #java,
+        #python,
+        #dbms,
+        #c {
+            width: 100%;
+            margin-left: -1.5rem;
+            /* background-color: aqua; */
+        }
+    }
+
+    @media screen and (max-width: 421px) {
+
+        #html,
+        #css,
+        #php,
+        #js,
+        #java,
+        #python,
+        #dbms,
+        #c {
+            width: 100%;
+            margin-left: -2rem;
+            margin-bottom: 2rem;
+            /* background-color: aqua; */
+        }
+
+        #skill-html,
+        #skill-css,
+        #skill-php,
+        #skill-js,
+        #skill-java,
+        #skill-python,
+        #skill-dbms,
+        #skill-c {
+            width: 80%;
+            height: 15px;
+            background-color: rgb(82, 82, 82);
+            margin-left: -3rem;
+            border-radius: 10px;
+            /* background-color: black; */
+        }
+
+        .skill-languages p:nth-child(3) {
+            position: relative;
+            top: -1rem;
+            margin-left: -3rem;
+        }
+
+        .skill-languages p {
+            margin-bottom: 0.5rem;
+        }
+    }
+
+    @media screen and (max-width: 401px) {
+
+        #html,
+        #css,
+        #php,
+        #js,
+        #java,
+        #python,
+        #dbms,
+        #c {
+            width: 100%;
+            margin-left: -1.5rem;
+            margin-bottom: 2rem;
+            /* background-color: aqua; */
+        }
+    }
+
+    @media screen and (max-width: 381px) {
+
+        #html,
+        #css,
+        #php,
+        #js,
+        #java,
+        #python,
+        #dbms,
+        #c {
+            width: 100%;
+            margin-left: -2rem;
+            margin-bottom: 2rem;
+            /* background-color: aqua; */
+        }
+    }
+
+    @media screen and (max-width: 371px) {}
+
+    @media screen and (max-width: 361px) {}
+
+    @media screen and (max-width: 351px) {}
+
+    @media screen and (max-width: 331px) {}
+
+    @media screen and (max-width: 321px) {}
+
+    @media screen and (max-width: 311px) {
+
+        #html,
+        #css,
+        #php,
+        #js,
+        #java,
+        #python,
+        #dbms,
+        #c {
+            width: 100%;
+            margin-left: -2.3rem;
+            margin-bottom: 2rem;
+            /* background-color: aqua; */
+        }
+    }
+
+    @media screen and (max-width: 301px) {}
+}
+
+@media (min-width: 576px) and (max-width: 767.5px) {
+
+    .skill-main {
+        /* background-color: aqua; */
+        display: inline-block;
+        width: 100%;
+        margin-top: 0rem;
+    }
+
+    #html,
+    #css,
+    #php,
+    #js,
+    #java,
+    #python,
+    #dbms,
+    #c {
+        margin-left: -10rem;
+        /* background-color: aqua; */
+    }
+
+    .skill-languages p {
+        margin-right: -2rem;
+    }
+
+    .skill-languages p:nth-child(3) {
+        margin-left: 1rem;
+    }
+
+    @media (min-width: 576px) and (max-width: 731px) {
+
+        #html,
+        #css,
+        #php,
+        #js,
+        #java,
+        #python,
+        #dbms,
+        #c {
+            margin-left: -11rem;
+            /* background-color: aqua; */
+        }
+    }
+
+    @media (min-width: 576px) and (max-width: 671px) {
+
+        #html,
+        #css,
+        #php,
+        #js,
+        #java,
+        #python,
+        #dbms,
+        #c {
+            margin-left: -12rem;
+            /* background-color: aqua; */
+        }
+    }
+
+    @media (min-width: 576px) and (max-width: 591px) {
+
+        #html,
+        #css,
+        #php,
+        #js,
+        #java,
+        #python,
+        #dbms,
+        #c {
+            margin-left: -13rem;
+            /* background-color: aqua; */
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992.5px) {
+    .skill-main {
+        /* background-color: aqua; */
+        display: inline-block;
+        width: 100%;
+        margin-top: 0rem;
+    }
+
+    #html,
+    #css,
+    #php,
+    #js,
+    #java,
+    #python,
+    #dbms,
+    #c {
+
+        margin-left: -13rem;
+        /* background-color: aqua; */
+    }
+
+    #skill-html,
+    #skill-css,
+    #skill-php,
+    #skill-js,
+    #skill-java,
+    #skill-python,
+    #skill-dbms,
+    #skill-c {
+        width: 70%;
+        height: 15px;
+        background-color: rgb(82, 82, 82);
+        margin-left: 4rem;
+        border-radius: 10px;
+    }
+
+    .skill-languages p {
+        margin-right: -2rem;
+    }
+
+    .skill-languages p:nth-child(3) {
+        margin-left: 1rem;
+    }
+
+    @media (min-width: 768px) and (max-width: 953px) {}
+
+    @media (min-width: 768px) and (max-width: 931px) {}
+
+    @media (min-width: 768px) and (max-width: 901px) {
+
+        #html,
+        #css,
+        #php,
+        #js,
+        #java,
+        #python,
+        #dbms,
+        #c {
+
+            margin-left: -14rem;
+            /* background-color: aqua; */
+        }
+
+        #skill-html,
+        #skill-css,
+        #skill-php,
+        #skill-js,
+        #skill-java,
+        #skill-python,
+        #skill-dbms,
+        #skill-c {
+            width: 70%;
+            height: 15px;
+            background-color: rgb(82, 82, 82);
+            margin-left: 4rem;
+            border-radius: 10px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 861px) {}
+
+    @media (min-width: 768px) and (max-width: 831px) {
+
+        #html,
+        #css,
+        #php,
+        #js,
+        #java,
+        #python,
+        #dbms,
+        #c {
+
+            margin-left: -15rem;
+            /* background-color: aqua; */
+        }
+
+        #skill-html,
+        #skill-css,
+        #skill-php,
+        #skill-js,
+        #skill-java,
+        #skill-python,
+        #skill-dbms,
+        #skill-c {
+            width: 70%;
+            height: 15px;
+            background-color: rgb(82, 82, 82);
+            margin-left: 4rem;
+            border-radius: 10px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 821px) {}
+
+    @media (min-width: 768px) and (max-width: 791px) {
+
+        #html,
+        #css,
+        #php,
+        #js,
+        #java,
+        #python,
+        #dbms,
+        #c {
+
+            margin-left: -15.5rem;
+            /* background-color: aqua; */
+        }
+
+        #skill-html,
+        #skill-css,
+        #skill-php,
+        #skill-js,
+        #skill-java,
+        #skill-python,
+        #skill-dbms,
+        #skill-c {
+            width: 70%;
+            height: 15px;
+            background-color: rgb(82, 82, 82);
+            margin-left: 4rem;
+            border-radius: 10px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 771px) {}
+}
+
+@media (min-width: 993px) and (max-width: 1200.5px) {
+
+    #html,
+    #css,
+    #php,
+    #js,
+    #java,
+    #python,
+    #dbms,
+    #c {
+
+        margin-left: -10rem;
+        /* background-color: aqua; */
+    }
+
+    #skill-html,
+    #skill-css,
+    #skill-php,
+    #skill-js,
+    #skill-java,
+    #skill-python,
+    #skill-dbms,
+    #skill-c {
+        width: 70%;
+        height: 15px;
+        background-color: rgb(82, 82, 82);
+        margin-left: 4rem;
+        border-radius: 10px;
+    }
+
+    @media (min-width: 993px) and (max-width: 1151px) {}
+
+    @media (min-width: 993px) and (max-width: 1081px) {
+
+        #html,
+        #css,
+        #php,
+        #js,
+        #java,
+        #python,
+        #dbms,
+        #c {
+
+            margin-left: -12rem;
+            /* background-color: aqua; */
+        }
+    }
+
+    @media (min-width: 993px) and (max-width: 1021px) {
+
+        #html,
+        #css,
+        #php,
+        #js,
+        #java,
+        #python,
+        #dbms,
+        #c {
+
+            margin-left: -12rem;
+            /* background-color: aqua; */
+        }
+    }
+}

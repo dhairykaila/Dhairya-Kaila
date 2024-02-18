@@ -1,0 +1,792 @@
+.heading-achi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    margin-top: 0rem;
+}
+
+.heading-achi h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.achi-main {
+    margin-top: 0rem;
+    height: 100vh;
+    padding-bottom: 38rem;
+    margin-top: 4rem;
+    /* width: 100vw; */
+    /* overflow: hidden; */
+    /* background-color: aqua; */
+}
+
+#achiv-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.education,
+.certificates,
+.project {
+    margin-left: 9rem;
+    margin-top: 3rem;
+    /* background-color: rgb(155, 8, 8); */
+    height: 20rem;
+}
+
+.certificates {
+    /* background-color: aqua; */
+    margin-top: 3rem;
+    height: 25rem;
+}
+
+.project {
+    /* border: #000000 solid; */
+    height: 14.5rem;
+}
+
+#edu-logo {
+    width: 4rem;
+    height: 4rem;
+    float: left;
+    /* border: solid rgb(77, 255, 0); */
+}
+
+#certi-name,
+#edu-name,
+#proj-name {
+    width: 40rem;
+    height: 4rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 3rem;
+    font-size: 2rem;
+    font-weight: 400;
+    /* border: solid rgb(111, 0, 255); */
+}
+
+.edu-detail {
+    /* border: solid black; */
+    height: 8rem;
+    margin: 2rem 0rem 0rem 5rem;
+    font-size: 1.50rem;
+}
+
+.edu-detail li {
+    /* border: #3d557a solid; */
+    float: left;
+    font-weight: 100;
+    letter-spacing: 1px
+}
+
+#edu-2 {
+    margin-top: 2rem;
+}
+
+#year {
+    /* border: blue solid; */
+    display: inline;
+    margin-left: 30rem;
+    font-size: 1rem;
+    /* color: rgb(63, 62, 62); */
+}
+
+#sub-edu {
+    /* border: blue solid; */
+    margin-top: 2rem;
+    padding-left: 2rem;
+    font-size: 1.3rem;
+}
+
+.certi-detail {
+    margin: 2rem 0rem 0rem 5rem;
+    font-size: 1.50rem;
+}
+
+.certi-detail li {
+    font-weight: 100;
+    letter-spacing: 1px
+}
+
+#sub-ceti {
+    margin: 1.5rem 0rem 1rem 0rem;
+    padding-left: 2rem;
+    font-size: 1.3rem;
+}
+
+.proj-detail {
+    margin: 2rem 0rem 0rem 5rem;
+    font-size: 1.50rem;
+}
+
+.proj-detail li {
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.proj-detail p {
+    width: 50rem;
+    text-align: justify;
+
+}
+
+#sub-proj {
+    margin: 1.5rem 0rem 1rem 0rem;
+    padding-left: 2rem;
+    font-size: 1.3rem;
+}
+
+
+
+
+.achi-footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0rem 1rem 0rem;
+}
+
+.achi-social-icon {
+    /* background-color: rgb(152, 152, 152); */
+    background-color: rgba(106, 106, 106, 0.524);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    width: 20rem;
+    height: 2.5rem;
+    /* margin-top: 5rem; */
+}
+
+.achi-social-icon img {
+    width: 25px;
+    height: 25px;
+    padding: 0.5rem 1rem 0.5rem 1.4rem;
+    transition: all 300ms ease;
+}
+
+.achi-social-icon img:hover {
+    /* color: rgb(185, 181, 181); */
+    /* filter: drop-shadow(-10px 3px 1px rgba(0, 0, 0, 0.319)); */
+    filter: drop-shadow(10px 5px 2px rgb(42, 41, 41));
+    /* transform: rotateY(180deg); */
+}
+
+@media screen and (max-width: 575.5px) {
+
+    .achi-main{
+        /* width: 75vw; */
+        width: 100%;
+        height: 100%;
+        padding-bottom: 2rem;
+        margin-top: 0rem;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+
+    #edu-1 li,
+    #edu-2 li{
+        color: black;
+        font-weight: 400;
+    }
+
+    .certi-detail li,
+    .proj-detail li{
+        color: black;
+        font-weight: 400;
+    }
+
+    .heading-achi {
+        margin-top: 0rem;
+        padding-top: 0rem;
+    }
+
+    .education,
+    .certificates,
+    .project {
+        margin-left: 1rem;
+        margin-top: 3rem;
+        /* background-color: rgb(155, 8, 8); */
+        /* height: 40rem; */
+    }
+
+    .certificates {
+        /* background-color: aqua; */
+        margin-top: 3rem;
+        height: 25rem;
+    }
+
+    .project {
+        /* border: #000000 solid; */
+        height: 35rem;
+    }
+
+    #edu-name-logo,
+    #certi-name-logo,
+    #proj-name-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #edu-dura-1,
+    #edu-dura-2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: red; */
+        /* display: none; */
+        width: 25rem;
+
+    }
+
+    #edu-dura-1 h3{
+        margin-left: -4rem;
+    }
+    #edu-dura-2 h3{
+        margin-left: -2rem;
+    }
+    #year{
+        margin-left: 0rem;
+    }
+
+    #sub-edu{
+        /* background-color: red; */
+        width: 25rem;
+        margin-left: 0.5rem;
+    }
+
+    /* .certi-detail p{
+        font-size: 1rem;
+    } */
+
+    #sub-proj {
+        width: 80%;
+        font-size: 1.5rem;
+    }
+
+    #sub-ceti{
+        /* background-color: red; */
+        width: 27rem;
+        /* display: inline-block; */
+        /* font-size: 1rem; */
+        /* padding-left: 0rem; */
+    }
+
+    @media screen and (max-width: 551px) {
+        .edu-detail,
+        .certi-detail,
+        .proj-detail {
+            /* border: solid black; */
+            /* height: 8rem; */
+            margin: 2rem 0rem 0rem 1rem;
+            font-size: 1.50rem;
+        }
+    }
+
+    @media screen and (max-width: 531px) {}
+
+    @media screen and (max-width: 500px) {}
+
+    @media screen and (max-width: 481px) {
+        .achi-main{
+            margin-bottom: 0rem;
+        }
+
+        #sub-edu{
+            font-size: 1rem;
+        }
+
+        #sub-ceti{
+            width: 21rem;
+            /* background-color: red; */
+            font-size: 1rem;
+        }
+
+        #sub-proj{
+            font-size: 1.3rem;
+        }
+    }
+
+    @media screen and (max-width: 446px) {
+        .edu-detail {
+            /* border: solid black; */
+            /* height: 8rem; */
+            margin: 2rem 0rem 0rem 1rem;
+            font-size: 1.50rem;
+        }
+    }
+
+    @media screen and (max-width: 421px) {
+        #sub-edu{
+            margin-left: 0.5rem;
+            /* background-color: red; */
+        }
+
+        #edu-dura-1,
+        #edu-dura-2{
+            width: 24rem;
+        }
+    }
+
+    @media screen and (max-width: 406px) {
+        .achi-main{
+            /* width: 40%; */
+            height: 100%;
+            width: 100%;
+            overflow-x: hidden;
+            /* background-color: red; */
+        }
+        #sub-edu{
+            margin-left: 0.5rem;
+            /* background-color: red; */
+            width: 19rem;
+        }
+
+        #edu-dura-1,
+        #edu-dura-2{
+            width: 24rem;
+        }
+        #sub-ceti{
+            width: 17rem;
+            /* background-color: red; */
+        }
+
+        .edu-detail,
+        .certi-detail,
+        .proj-detail{
+            /* border: solid black; */
+            /* height: 8rem; */
+            margin: 2rem 0rem 0rem 0.8rem;
+        }
+    }    
+
+    @media screen and (max-width: 381px) {
+        .edu-detail,
+        .certi-detail,
+        .proj-detail{
+            /* border: solid black; */
+            /* height: 8rem; */
+            margin: 2rem 0rem 0rem 0.2rem;
+        }
+        #sub-ceti{
+            /* background-color: red; */
+            padding-left: 1rem;
+            width: 21rem;
+        }
+    }
+
+    @media screen and (max-width: 371px) {
+        .edu-detail,
+        .certi-detail,
+        .proj-detail{
+            /* border: solid black; */
+            /* height: 8rem; */
+            margin: 2rem 0rem 0rem 0rem;
+        }
+    }
+
+    @media screen and (max-width: 361px) {
+        .edu-detail,
+        .certi-detail,
+        .proj-detail{
+            /* border: solid black; */
+            /* height: 8rem; */
+            margin: 2rem 0rem 0rem 0rem;
+        }
+        .edu-detail h3,
+        .certi-detail h3,
+        .proj-detail h3{
+            font-size: 1.3rem;
+        }
+
+        .edu-detail{
+            margin-left: -1.5rem;
+        }
+        #sub-edu{
+            padding-left: 2rem;
+        }
+        #year{
+            font-size: 0.8rem;
+            margin-left: -3rem;
+        }
+        
+        #sub-proj{
+            width: 16rem;
+        }
+        
+        #sub-ceti{
+            width: 21rem;
+            font-size: 1rem;
+            /* background-color: yellow; */
+            width: 17rem;
+        }
+    }
+
+    @media screen and (max-width: 351px) {
+        #sub-edu{
+            margin-left: 01rem;
+        }
+        #sub-proj{
+            width: 15rem;
+        }
+    }
+
+    @media screen and (max-width: 341px) {
+        #year{
+            font-size: 0.8rem;
+            margin-left: -2rem;
+        }
+
+        #sub-edu{
+            margin-left: 0rem;
+        }
+
+        #edu-dura-1,
+        #edu-dura-2{
+            margin-left: -0.5rem;
+        }
+
+        .certi-detail{
+            margin-left: -0.3rem;
+        }
+
+        .proj-detail{
+            margin-left: -0.2rem;
+        }
+
+        #sub-proj{
+            margin-left: -1rem;
+            width: 17rem;
+        }
+    }
+
+    @media screen and (max-width: 331px) {
+        .achi-main h3{
+            font-size: 1.5rem;
+        }
+        #sub-proj{
+            width: 15rem;
+        }
+    }
+
+    @media screen and (max-width: 321px) {
+        .edu-detail h3,
+        .certi-detail h3,
+        .proj-detail h3{
+            font-size: 1.3rem;
+        }
+    }
+
+    @media screen and (max-width: 311px) {
+        #sub-proj{
+            width: 15rem;
+            margin-left: -1rem;
+            font-size: 1rem;
+        }
+
+        .edu-detail{
+            margin-left: -2.5rem;
+        }
+
+        #sub-edu{
+            margin-left: 1rem;
+        }
+
+        #year{
+            margin-left: -7rem;
+        }
+    }
+
+    @media screen and (max-width: 301px) {
+        #sub-edu{
+            width: 15rem;
+        }
+        .achi-main{
+            padding-bottom: 0rem;
+            margin-bottom: 0rem;
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.5px) {
+
+    .achi-main{
+        /* width: 75vw; */
+        width: 100%;
+        height: 100%;
+        padding-bottom: 0rem;
+        margin-top: 0rem;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+
+    #edu-1 li,
+    #edu-2 li{
+        color: black;
+        font-weight: 400;
+    }
+
+    .certi-detail li,
+    .proj-detail li{
+        color: black;
+        font-weight: 400;
+    }
+
+    .heading-achi {
+        margin-top: 0rem;
+        padding-top: 0rem;
+    }
+
+    .education,
+    .certificates,
+    .project {
+        margin-left: 1rem;
+        margin-top: 3rem;
+        /* background-color: rgb(155, 8, 8); */
+        /* height: 40rem; */
+    }
+
+    .certificates {
+        /* background-color: aqua; */
+        margin-top: 3rem;
+        height: 25rem;
+    }
+
+    .project {
+        /* border: #000000 solid; */
+        height: 35rem;
+    }
+
+    #edu-name-logo,
+    #certi-name-logo,
+    #proj-name-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #edu-dura-1,
+    #edu-dura-2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: red; */
+        /* display: none; */
+        width: 25rem;
+
+    }
+
+    #edu-dura-1 h3{
+        margin-left: -4rem;
+    }
+    #edu-dura-2 h3{
+        margin-left: -2rem;
+    }
+    #year{
+        margin-left: 0rem;
+    }
+
+    #sub-edu{
+        /* background-color: red; */
+        width: 25rem;
+        margin-left: 0.5rem;
+    }
+
+    /* .certi-detail p{
+        font-size: 1rem;
+    } */
+
+    #sub-proj {
+        width: 80%;
+        font-size: 1.5rem;
+    }
+
+    #sub-ceti{
+        /* background-color: red; */
+        width: 27rem;
+        /* display: inline-block; */
+        /* font-size: 1rem; */
+        /* padding-left: 0rem; */
+    }
+
+    @media (min-width: 576px) and (max-width: 731px) {}
+
+    @media (min-width: 576px) and (max-width: 671px) {}
+
+    @media (min-width: 576px) and (max-width: 591px) {}
+}
+
+@media (min-width: 768px) and (max-width: 992.5px) {
+    .achi-main{
+        /* width: 75vw; */
+        width: 100%;
+        height: 100%;
+        padding-bottom: 0rem;
+        margin-top: 0rem;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+
+    #edu-1 li,
+    #edu-2 li{
+        color: black;
+        font-weight: 400;
+    }
+
+    .certi-detail li,
+    .proj-detail li{
+        color: black;
+        font-weight: 400;
+    }
+
+    .heading-achi {
+        margin-top: 0rem;
+        padding-top: 0rem;
+    }
+
+    .education,
+    .certificates,
+    .project {
+        margin-left: 0rem;
+        margin-top: 3rem;
+        /* background-color: rgb(155, 8, 8); */
+        /* height: 40rem; */
+    }
+
+    .certificates {
+        /* background-color: aqua; */
+        margin-top: 3rem;
+        height: 25rem;
+    }
+
+    .project {
+        /* border: #000000 solid; */
+        height: 35rem;
+    }
+
+    #edu-name-logo,
+    #certi-name-logo,
+    #proj-name-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -9rem;
+    }
+
+    #edu-name,#proj-name{
+        font-size: 2.5rem;
+    }
+
+    #edu-dura-1,
+    #edu-dura-2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: red; */
+        /* display: none; */
+        width: 35rem;
+
+    }
+
+    #edu-dura-1 h3{
+        margin-left: -3rem;
+    }
+    #edu-dura-2 h3{
+        margin-left: -1rem;
+    }
+    #year{
+        margin-left: 15rem;
+    }
+
+    #sub-edu{
+        /* background-color: red; */
+        width: 25rem;
+        margin-left: 0.5rem;
+    }
+
+    /* .certi-detail p{
+        font-size: 1rem;
+    } */
+
+    #sub-proj {
+        width: 80%;
+        font-size: 2rem;
+    }
+
+    #sub-ceti{
+        /* background-color: red; */
+        width: 27rem;
+        /* display: inline-block; */
+        /* font-size: 1rem; */
+        /* padding-left: 0rem; */
+    }
+
+
+
+    @media (min-width: 768px) and (max-width: 953px) {}
+
+    @media (min-width: 768px) and (max-width: 931px) {}
+
+    @media (min-width: 768px) and (max-width: 901px) {
+        .education,
+        .certificates,
+        .project{
+            margin-left: 3rem;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 861px) {
+        #edu-name-logo,
+        #certi-name-logo,
+        #proj-name-logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: -1rem;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 831px) {}
+
+    @media (min-width: 768px) and (max-width: 821px) {}
+
+    @media (min-width: 768px) and (max-width: 791px) {}
+
+    @media (min-width: 768px) and (max-width: 771px) {}
+}
+
+@media (min-width: 993px) and (max-width: 1200.5px) {
+
+
+
+    @media (min-width: 993px) and (max-width: 1151px) {}
+
+    @media (min-width: 993px) and (max-width: 1081px) {
+        .education,
+        .certificates,
+        .project{
+            margin-left: 3rem;
+        }
+    }
+
+    @media (min-width: 993px) and (max-width: 1021px) {
+    }
+}
+
+
+@media (min-width: 1390.5px) {
+    .education,
+        .certificates,
+        .project{
+            margin-left: 13rem;
+        }
+}
+
+/* .achi-main div{
+    background-color: red;
+} */
