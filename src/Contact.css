@@ -202,7 +202,7 @@
 .con-social-icon {
     /* background-color: rgb(152, 152, 152); */
     background-color: rgba(106, 106, 106, 0.524);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(8px);
     border-radius: 5px;
     width: 20rem;
     height: 2.5rem;
@@ -225,9 +225,39 @@
 
 
 
+.notification-main{
+    /* transform: translate(100%); */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.noti{
+    z-index: 333;
+    width: 30%;
+    height: 4rem;
+    background-color: rgba(223, 220, 220, 0.579);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    position: fixed;
+    top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noti img{
+    width: 30px;
+    height: 30px;
+    padding-right: 0.5rem;
+}
 
 @media screen and (max-width: 575.5px) {
 
+    .noti{
+        width: 90%;
+        height: 4.1rem;
+        border-radius: 13px;
+    }
     #section5 {
         margin-top: 0rem;
         width: 100%;
@@ -281,7 +311,7 @@
         height: 2.3rem;
         color: rgb(63, 62, 62);
         font-size: 15px;
-        font-weight: 100;
+        font-weight: 400;
         padding-right: 1rem;
     }
 
@@ -345,7 +375,7 @@
             left: 4rem;
         }
     }
-
+    
     /* @media screen and (max-width: 561px) {
         .location-area {
             margin-right: 15rem;

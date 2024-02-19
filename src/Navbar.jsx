@@ -46,7 +46,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-res">
         <ul className="link-res" >
-          <li onClick={hideslidebar}><NavLink id="li" to="/">Profile</NavLink></li>
+          <li onClick={hideslidebar}><NavLink id="li" to="/Dhairya-Kaila">Profile</NavLink></li>
           <li onClick={hideslidebar}><NavLink id="li" to="/About" >About</NavLink></li>
           <li onClick={hideslidebar}><NavLink id="li" to="/Skill" >Skill</NavLink></li>
           <li onClick={hideslidebar}><NavLink id="li" to="/Achievement" >Achievement</NavLink></li>
