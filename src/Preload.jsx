@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { preLoaderAnim } from "./animations/aenime";
+import { preLoaderAnim } from "./aenime";
 import wr from './img/smile.png';
 import './Preload.css';
 
