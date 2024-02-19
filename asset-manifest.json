@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Dhairya-Kaila/static/css/main.c81831da.css",
-    "main.js": "/Dhairya-Kaila/static/js/main.2f4b2d67.js",
-    "static/js/592.328120dd.chunk.js": "/Dhairya-Kaila/static/js/592.328120dd.chunk.js",
+    "main.js": "/Dhairya-Kaila/static/js/main.f1343f4f.js",
+    "static/js/592.121ed9a7.chunk.js": "/Dhairya-Kaila/static/js/592.121ed9a7.chunk.js",
     "static/media/Picture556.png": "/Dhairya-Kaila/static/media/Picture556.854ceaf316a344792adc.png",
     "static/media/Picture54.png": "/Dhairya-Kaila/static/media/Picture54.21c9071d7c4af971afe3.png",
     "static/media/myphoto1.jpg": "/Dhairya-Kaila/static/media/myphoto1.e2593bf9ebe67b37dd1d.jpg",
@@ -19,11 +19,11 @@
     "static/media/linkedin.png": "/Dhairya-Kaila/static/media/linkedin.92380c03cc82f139a166.png",
     "index.html": "/Dhairya-Kaila/index.html",
     "main.c81831da.css.map": "/Dhairya-Kaila/static/css/main.c81831da.css.map",
-    "main.2f4b2d67.js.map": "/Dhairya-Kaila/static/js/main.2f4b2d67.js.map",
-    "592.328120dd.chunk.js.map": "/Dhairya-Kaila/static/js/592.328120dd.chunk.js.map"
+    "main.f1343f4f.js.map": "/Dhairya-Kaila/static/js/main.f1343f4f.js.map",
+    "592.121ed9a7.chunk.js.map": "/Dhairya-Kaila/static/js/592.121ed9a7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c81831da.css",
-    "static/js/main.2f4b2d67.js"
+    "static/js/main.f1343f4f.js"
   ]
 }
