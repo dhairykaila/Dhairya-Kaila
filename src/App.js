@@ -10,16 +10,15 @@ import Photo from "./Photo.jsx";
 import { Switch,Route } from 'react-router-dom';
 import Swp from "./Swp.jsx";
 import Navbar from "./Navbar.jsx";
-import Footer from "./Preload.jsx";
-import Preload from "./Preload.jsx";
+// import Preload from "./Preload.jsx";
 
 
 function App() {
   return (
     <>
-      <Preload/>
+      {/* <Preload/> */}
     <Switch>
-      <Route exact path="/">
+      <Route exact path="/Dhairya-Kaila">
         <Profile/>
       </Route>
 
