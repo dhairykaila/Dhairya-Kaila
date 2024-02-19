@@ -16,7 +16,6 @@ import Navbar from "./Navbar.jsx";
 function App() {
   return (
     <>
-      {/* <Preload/> */}
     <Switch>
       <Route exact path="/Dhairya-Kaila">
         <Profile/>
