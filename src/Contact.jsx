@@ -54,7 +54,7 @@ function Contact() {
 
 
         useEffect(() => {
-            AOS.init({ duration: 2000 })
+            AOS.init({ duration: 500 })
         }, []);
         return (
             <>

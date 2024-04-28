@@ -1,11 +1,15 @@
-import React, { useState } from "react";
+import React,{useEffect} from "react";
 import './Navbar.css';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 // import Profile from "./img/profile.png";
 // import About from "./img/info.png";
 // import Skill from "./img/skills.png"
 // import Achievement from "./img/analytics.png";
 // import contact from "./img/analytics.png";
-import menuicon from "./img/menuicon.png";
+import menuicon from "./img/navigation.png";
 
 import { NavLink } from 'react-router-dom';
 
@@ -13,12 +17,18 @@ import { NavLink } from 'react-router-dom';
 
 
 const Navbar = () => {
+
+    useEffect(() => {
+      AOS.init({ duration: 2000 })
+    }, []);
   
   function showslidebar() {
     const sidebar = document.querySelector(".navbar-res");
     sidebar.style.display = "flex";
     const iconsmenu = document.querySelector(".menu-list");
     iconsmenu.style.display = "none";
+    const hidemenu = document.querySelector(".hide-menu");
+    hidemenu.style.display = "flex";
   }
   
   function hideslidebar() {
@@ -26,7 +36,10 @@ const Navbar = () => {
     sidebar.style.display = "none";
     const iconsmenu = document.querySelector(".menu-list");
     iconsmenu.style.display = "flex";
+    const hidemenu = document.querySelector(".hide-menu");
+    hidemenu.style.display = "none";
   }
+
   return (
     <nav>
       <div className="navbar">
@@ -41,6 +54,7 @@ const Navbar = () => {
         </ul>
       </div>
       {/* <div className="logo">Dhairya Kaila</div> */}
+      <div className="hide-menu" onClick={hideslidebar}></div>
       <div className="menu-list" onClick={showslidebar}>
         <img src={menuicon} alt="" />
       </div>

@@ -13,7 +13,7 @@ import 'aos/dist/aos.css';
 const Skill = () => {
 
     useEffect(() => {
-        AOS.init({ duration: 2000 })
+        AOS.init({ duration: 400 })
     }, []);
 
     return (<>
@@ -43,7 +43,7 @@ const Skill = () => {
                     <div id="skill-php">
                         <div id="prog-php" data-aos='fade-right'></div>
                     </div>
-                    <p id="per">80%</p>
+                    <p id="per">90%</p>
                 </div>
                 <div id="js" data-aos='zoom-in'>
                     <p>Js</p>

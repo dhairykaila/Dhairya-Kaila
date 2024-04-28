@@ -20,7 +20,7 @@ import { NavLink } from 'react-router-dom';
 const Profile = () => {
 
     useEffect(()=> {
-        AOS.init({duration: 900});
+        AOS.init({duration: 600});
     },[]);
 
    

@@ -11,14 +11,14 @@ import 'aos/dist/aos.css';
 const Photo = () => {
     
     useEffect(()=> {
-        AOS.init({duration: 2000})
+        AOS.init({duration: 600})
     },[]);
 
     return (
         <>
             <Navbar/>
-            <section className="photo-main" data-aos="zoom-in">
-                <div className="heading-photo" >
+            <section className="photo-main">
+                <div className="heading-photo">
                     <p>Project, Campus</p>
                     <h1>Photos</h1>
                 </div>

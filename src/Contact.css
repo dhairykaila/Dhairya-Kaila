@@ -227,6 +227,7 @@
 
 .notification-main{
     /* transform: translate(100%); */
+    transition: all 3s;
     display: none;
     justify-content: center;
     align-items: center;

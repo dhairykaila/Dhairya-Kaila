@@ -7,7 +7,7 @@ const Preload = () => {
 
     useEffect(()=>{
         preLoaderAnim()
-    },3000)
+    },100)
 
     return(
         <div className="preloader" >
