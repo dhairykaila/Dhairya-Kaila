@@ -12,6 +12,7 @@ import linkedin from './img/icons8-linkedin-48.png';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "./Footer.jsx";
 
 const About = () => {
     useEffect(() => {
@@ -36,13 +37,13 @@ const About = () => {
                         <div className="about-edu" data-aos='fade-up'>
                             <img id="icon" src={graduate} alt="" />
                             <h6>Education</h6>
-                            <p>Diploma 6<sup>th</sup>Sem Student</p>
+                            <p>Diploma 6<sup>th</sup> Sem Student</p>
                             <p>10<sup>th</sup> Completed</p>
                         </div>
                         <div className="about-location" data-aos='fade-up'>
                             <img id="icon" src={map} alt="" />
                             <h6>Location</h6>
-                            <p>Uma Ashish, Umiya chock Gokhuldham</p>
+                            <p>Uma Ashish, Umiya chowk Gokuldham</p>
                             <p>Rajkot,Gujarat</p>
                         </div>
                     </div>
@@ -57,6 +58,7 @@ const About = () => {
                     </div>
                 </div>
             </section>
+            {/* <Footer/> */}
         </>
     );
 }

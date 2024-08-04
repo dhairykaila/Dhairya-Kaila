@@ -12,7 +12,8 @@ const Preload = () => {
     return(
         <div className="preloader" >
             <div className="texts-container">
-                <span id="smile"><img src={wr} alt="" /></span>
+                {/* <span id="smile"><img src={wr} alt="" /></span> */}
+                <span id="smile">ヅ</span>
                 <span>WELCOME </span>
                 <span> TO </span>
                 <span> MY </span>

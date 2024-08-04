@@ -33,6 +33,10 @@
 .heading-con h1 {
     font-size: 3rem;
     font-weight: 500;
+    color: #FAFAFA;
+}
+.heading-con p{
+    color: rgba(240, 248, 255, 0.538);
 }
 
 .contact-area {
@@ -47,7 +51,7 @@
 .contact-area input {
     width: 17rem;
     height: 2.3rem;
-    color: rgb(63, 62, 62);
+    /* color: rgb(255, 0, 0); */
     font-size: 15px;
     font-weight: 100;
     padding-right: 1rem;
@@ -55,7 +59,7 @@
 
 .contact-area input::placeholder,
 .contact-area textarea::placeholder {
-    color: rgb(63, 62, 62);
+    color: rgba(255, 240, 240, 0.538);
     font-size: 15px;
     font-weight: 100;
 }
@@ -66,7 +70,7 @@
 
 .contact-area textarea {
     padding-top: 10px;
-    color: rgb(63, 62, 62);
+    color: #FAFAFA;
     font-size: 15px;
     font-weight: 100;
 }
@@ -81,14 +85,15 @@
     outline: none;
     background: transparent;
     padding-left: 1rem;
-    border: rgb(63, 62, 62) solid;
+    border: rgb(109, 109, 109) solid;
 }
 
 #con-name:hover,
 #con-email:hover,
 #con-subj:hover,
 #con-txarea:hover {
-    background-color: #d6d4d499;
+    /* background-color: #191919; */
+    background-color: #3B3B3B;
     border: solid transparent;
     transition: all 300ms ease;
 }
@@ -104,8 +109,8 @@
     width: 8rem;
     padding: 5px;
     background: transparent;
-    border: #000000 solid;
-    color: #000000;
+    border: #3B3B3B solid;
+    color: #FAFAFA;
     font-size: 20px;
     font-weight: 100;
     border-radius: 15px;
@@ -114,8 +119,8 @@
 
 #con-btn:hover {
     background: transparent;
-    background-color: #000000;
-    color: rgb(255, 255, 255);
+    background-color: #3B3B3B;
+    color: #FAFAFA;
 }
 
 .location-area {
@@ -167,6 +172,7 @@
     width: 20rem;
     height: 3rem;
     border: 2px solid gray;
+    /* color: #FAFAFA; */
     border-radius: 20px;
     transition: all 300ms ease;
 }
@@ -190,6 +196,9 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+.eaddress p{
+    color: rgba(240, 248, 255, 0.538);
 }
 
 .con-footer-icon {
@@ -229,6 +238,7 @@
     /* transform: translate(100%); */
     transition: all 3s;
     display: none;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
 }
@@ -236,8 +246,8 @@
     z-index: 333;
     width: 30%;
     height: 4rem;
-    background-color: rgba(223, 220, 220, 0.579);
-    backdrop-filter: blur(10px);
+    background-color: #5a5a5a81;
+    backdrop-filter: blur(8px);
     border-radius: 15px;
     position: fixed;
     top: 1rem;
@@ -250,6 +260,11 @@
     width: 30px;
     height: 30px;
     padding-right: 0.5rem;
+}
+.noti h3{
+    color: #FAFAFA;
+    font-weight: 500;
+    font-size: 22px;
 }
 
 @media screen and (max-width: 575.5px) {
@@ -310,7 +325,7 @@
     .contact-area input {
         width: 17rem;
         height: 2.3rem;
-        color: rgb(63, 62, 62);
+        /* color: rgb(63, 62, 62); */
         font-size: 15px;
         font-weight: 400;
         padding-right: 1rem;
@@ -318,7 +333,7 @@
 
     .contact-area input::placeholder,
     .contact-area textarea::placeholder {
-        color: rgb(63, 62, 62);
+        /* color: rgb(63, 62, 62); */
         font-size: 15px;
         font-weight: 400;
     }
@@ -329,7 +344,7 @@
 
     .contact-area textarea {
         padding-top: 10px;
-        color: rgb(63, 62, 62);
+        /* color: rgb(63, 62, 62); */
         font-size: 15px;
         font-weight: 100;
         width: 17.8rem;
@@ -355,7 +370,7 @@
 
         .contact-area textarea {
             padding-top: 10px;
-            color: rgb(63, 62, 62);
+            /* color: rgb(63, 62, 62); */
             font-size: 15px;
             font-weight: 100;
             width: 17.8rem;
@@ -503,7 +518,7 @@
         .contact-area input {
             width: 14rem;
             height: 2.3rem;
-            color: rgb(63, 62, 62);
+            /* color: rgb(63, 62, 62); */
             font-size: 15px;
             font-weight: 100;
             padding-right: 1rem;
@@ -511,7 +526,7 @@
 
         .contact-area input::placeholder,
         .contact-area textarea::placeholder {
-            color: rgb(63, 62, 62);
+            /* color: rgb(63, 62, 62); */
             font-size: 15px;
             font-weight: 100;
         }
@@ -589,7 +604,7 @@
         .contact-area input {
             width: 11rem;
             height: 2.3rem;
-            color: rgb(63, 62, 62);
+            /* color: rgb(63, 62, 62); */
             font-size: 15px;
             font-weight: 100;
             padding-right: 1rem;
@@ -597,7 +612,7 @@
 
         .contact-area input::placeholder,
         .contact-area textarea::placeholder {
-            color: rgb(63, 62, 62);
+            /* color: rgb(63, 62, 62); */
             font-size: 15px;
             font-weight: 100;
         }
@@ -674,7 +689,7 @@
     .contact-area input {
         width: 17rem;
         height: 2.3rem;
-        color: rgb(63, 62, 62);
+        /* color: rgb(63, 62, 62); */
         font-size: 15px;
         font-weight: 100;
         padding-right: 1rem;
@@ -682,7 +697,7 @@
 
     .contact-area input::placeholder,
     .contact-area textarea::placeholder {
-        color: rgb(63, 62, 62);
+        /* color: rgb(63, 62, 62); */
         font-size: 15px;
         font-weight: 400;
     }
@@ -693,7 +708,7 @@
 
     .contact-area textarea {
         padding-top: 10px;
-        color: rgb(63, 62, 62);
+        /* color: rgb(63, 62, 62); */
         font-size: 15px;
         font-weight: 100;
         width: 17.8rem;
@@ -752,7 +767,7 @@
     .contact-area input {
         width: 17rem;
         height: 2.3rem;
-        color: rgb(63, 62, 62);
+        /* color: rgb(63, 62, 62); */
         font-size: 15px;
         font-weight: 100;
         padding-right: 1rem;
@@ -760,7 +775,7 @@
 
     .contact-area input::placeholder,
     .contact-area textarea::placeholder {
-        color: rgb(63, 62, 62);
+        /* color: rgb(63, 62, 62); */
         font-size: 15px;
         font-weight: 100;
     }
@@ -771,7 +786,7 @@
 
     .contact-area textarea {
         padding-top: 10px;
-        color: rgb(63, 62, 62);
+        /* color: rgb(63, 62, 62); */
         font-size: 15px;
         font-weight: 100;
         width: 18rem;
@@ -813,7 +828,7 @@
         .contact-area input {
             width: 17rem;
             height: 2.3rem;
-            color: rgb(63, 62, 62);
+            /* color: rgb(63, 62, 62); */
             font-size: 15px;
             font-weight: 100;
             padding-right: 1rem;
@@ -821,7 +836,7 @@
 
         .contact-area input::placeholder,
         .contact-area textarea::placeholder {
-            color: rgb(63, 62, 62);
+            /* color: rgb(63, 62, 62); */
             font-size: 15px;
             font-weight: 100;
         }
@@ -832,7 +847,7 @@
 
         .contact-area textarea {
             padding-top: 10px;
-            color: rgb(63, 62, 62);
+            /* color: rgb(63, 62, 62); */
             font-size: 15px;
             font-weight: 100;
             width: 18rem;
@@ -851,7 +866,7 @@
         .contact-area input {
             width: 15rem;
             height: 2.3rem;
-            color: rgb(63, 62, 62);
+            /* color: rgb(63, 62, 62); */
             font-size: 15px;
             font-weight: 100;
             padding-right: 1rem;
@@ -859,7 +874,7 @@
 
         .contact-area input::placeholder,
         .contact-area textarea::placeholder {
-            color: rgb(63, 62, 62);
+            /* color: rgb(63, 62, 62); */
             font-size: 15px;
             font-weight: 100;
         }
@@ -870,7 +885,7 @@
 
         .contact-area textarea {
             padding-top: 10px;
-            color: rgb(63, 62, 62);
+            /* color: rgb(63, 62, 62); */
             font-size: 15px;
             font-weight: 100;
             width: 16rem;

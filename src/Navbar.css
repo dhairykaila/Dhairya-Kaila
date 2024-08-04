@@ -1,5 +1,6 @@
 * {
-    color: black;
+    color: #FAFAFA;
+    /* font-weight: 100; */
 }
 
 nav {
@@ -7,6 +8,9 @@ nav {
     height: 4.5rem;
     width: 100%;
     z-index: 657;
+    background-color: rgba(52, 52, 52, 0.68);
+    border-radius: 0px 0px 15px 15px;
+    color: #FAFAFA;
     /* position: fixed;
     top: 0rem;
     background-color: rgba(119, 119, 119, 0.475);
@@ -27,11 +31,11 @@ nav {
 
 
 .link {
+    /* color: #FAFAFA; */
     float: right;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: yellow; */
     font-size: 1.5rem;
     width: 40rem;
     height: 4.5rem;
@@ -42,18 +46,19 @@ nav {
     transition: all 300ms ease;
     cursor: pointer;
     text-decoration: none;
-    text-decoration-color: white;
+    /* font-weight: 100; */
+    /* text-decoration-color: white; */
     /* color: black; */
-    color: #2ae98c;
-
+    /* color: #2ae98c; */
 }
 
 .link li:hover {
-    /* color: gray; */
-    text-decoration: underline;
+    /* text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(185, 181, 181);
-    /* border-bottom: gray 1px solid; */
+    text-decoration-color: rgb(185, 181, 181); */
+    background-color: #3b3b3b47;
+    padding: 3px 10px;
+    border-radius: 10px;
 }
 
 .navbar-res {
@@ -77,18 +82,20 @@ nav {
 .hide-menu {
     display: none;
 }
-
+.link{
 .active{
-    text-decoration: underline;
-    text-underline-offset: 1rem;
-    text-decoration-color: rgb(185, 181, 181);
-}
+    background-color: #3B3B3B;
+    padding: 3px 10px;
+    border-radius: 10px;
+}}
 
 @media screen and (max-width: 575.5px) {
     .navbar {
         display: none;
     }
-
+    nav{
+        background-color: #171717;
+    }
     .hide-menu {
         position: absolute;
         width: 100vw;
@@ -100,21 +107,25 @@ nav {
         z-index: 1;
         display: none;
     }
-
+    
     .menu-list img {
         display: flex;
-        width: 33px;
+        width: 25px;
         position: fixed;
         top: 15px;
         right: 15px;
         z-index: 22;
+        background-color: #4646468c;
+        padding: 4px;
+        border-radius: 25%;
     }
-
+    
     .navbar-res {
         justify-content: center;
         position: fixed;
         z-index: 1;
-        background-color: rgba(255, 255, 255, 0.372);
+        background-color: #17171777;
+        backdrop-filter: blur(90px);
         transform: translate(100%);
         width: 50%;
         height: 100%;
@@ -140,20 +151,15 @@ nav {
         flex-direction: column;
         width: 120px;
         height: 40px;
-
-        background-color: rgba(106, 106, 106, 0.524);
-        color: rgb(230, 230, 230);
+        /* background-color: rgba(106, 106, 106, 0.524);
+        color: rgb(230, 230, 230); */
+        background-color: #545454;
+        color: #FAFAFA;
         border-radius: 10px;
         margin-top: 2rem;
     }
-
-    .active{
-        /* background-color: rgba(230, 230, 230, 0.662);
-        color: black; */
-        background-color: #2ae98c;
-        width: 80px;
-        height: 30px;
-    }
+    
+    
 
     /* 
     
@@ -218,6 +224,9 @@ nav {
     .navbar {
         display: none;
     }
+    nav{
+        background-color: #171717;
+    }
 
     .hide-menu {
         position: absolute;
@@ -233,18 +242,22 @@ nav {
 
     .menu-list img {
         display: flex;
-        width: 33px;
+        width: 30px;
         position: fixed;
         top: 15px;
         right: 15px;
         z-index: 22;
+        background-color: #4646468c;
+        padding: 4px;
+        border-radius: 25%;
     }
 
     .navbar-res {
         justify-content: center;
         position: fixed;
         z-index: 1;
-        background-color: rgba(255, 255, 255, 0.372);
+        background-color: #17171777;
+        backdrop-filter: blur(90px);
         transform: translate(100%);
         width: 50%;
         height: 100%;
@@ -275,11 +288,6 @@ nav {
         color: rgb(230, 230, 230);
         border-radius: 10px;
         margin-top: 2rem;
-    }
-
-    .active-color {
-        background-color: rgba(230, 230, 230, 0.662);
-        color: black;
     }
 
     /* .hide-menu{
@@ -342,7 +350,9 @@ nav {
     .navbar {
         display: none;
     }
-
+    nav{
+        background-color: #171717;
+    }
     .hide-menu {
         position: absolute;
         width: 100vw;
@@ -362,13 +372,18 @@ nav {
         top: 15px;
         right: 15px;
         z-index: 22;
+        background-color: #4646468c;
+        padding: 4px;
+        border-radius: 25%;
     }
 
     .navbar-res {
         justify-content: center;
         position: fixed;
         z-index: 1;
-        background-color: rgba(255, 255, 255, 0.372);
+        /* background-color: rgba(255, 255, 255, 0.372); */
+        background-color: #17171777;
+        backdrop-filter: blur(90px);
         transform: translate(100%);
         width: 50%;
         height: 100%;
@@ -399,11 +414,6 @@ nav {
         color: rgb(230, 230, 230);
         border-radius: 10px;
         margin-top: 2rem;
-    }
-
-    .active-color {
-        background-color: rgba(230, 230, 230, 0.662);
-        color: black;
     }
 
 

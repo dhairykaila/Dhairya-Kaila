@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import './Navbar.css';
 
 import AOS from 'aos';
@@ -13,15 +13,16 @@ import menuicon from "./img/navigation.png";
 
 import { NavLink } from 'react-router-dom';
 
-
+import Photo from "./Photo";
+import "./Photo.css";
 
 
 const Navbar = () => {
 
-    useEffect(() => {
-      AOS.init({ duration: 2000 })
-    }, []);
-  
+  useEffect(() => {
+    AOS.init({ duration: 2000 })
+  }, []);
+
   function showslidebar() {
     const sidebar = document.querySelector(".navbar-res");
     sidebar.style.display = "flex";
@@ -30,7 +31,6 @@ const Navbar = () => {
     const hidemenu = document.querySelector(".hide-menu");
     hidemenu.style.display = "flex";
   }
-  
   function hideslidebar() {
     const sidebar = document.querySelector(".navbar-res");
     sidebar.style.display = "none";

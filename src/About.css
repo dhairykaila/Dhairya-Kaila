@@ -14,6 +14,10 @@
 .heading-about h1 {
     font-size: 3rem;
     font-weight: 500;
+    color: #FAFAFA;
+}
+.heading-about p {
+    color: rgba(240, 248, 255, 0.538);
 }
 
 .about-photo img {
@@ -42,7 +46,8 @@
 }
 
 .about-edu {
-    border: 2px gray solid;
+    /* border: 1px rgb(18, 18, 18) solid; */
+    background-color: #3B3B3B;
     width: 19rem;
     height: 9rem;
     border-radius: 30px;
@@ -67,15 +72,17 @@
     font-weight: 600;
     font-size: 15px;
     margin-top: 0.5rem;
+    color: #FAFAFA;
 }
 
-.about-edu p {
+.about-edu p,sup {
     font-size: 15px;
     margin-top: 0.5rem;
+    color: rgba(240, 248, 255, 0.538);
 }
 
 .about-location {
-    border: 2px gray solid;
+    background-color: #3B3B3B;
     width: 19rem;
     height: 9rem;
     border-radius: 30px;
@@ -97,11 +104,13 @@
     font-weight: 600;
     font-size: 15px;
     margin-top: 0.5rem;
+    color: #FAFAFA;
 }
 
 .about-location p {
     font-size: 15px;
     margin-top: 0.5rem;
+    color: rgba(240, 248, 255, 0.538);
 }
 
 .about-dis {
@@ -112,7 +121,7 @@
 .about-dis p {
     font-size: 18px;
     text-align: start;
-    color: rgba(0, 0, 0, 0.819);
+    color: #FAFAFA;
 }
 
 
@@ -175,7 +184,7 @@
         font-size: 18px;
         text-align: start;
         line-height: 1.5rem;
-        color: rgba(0, 0, 0, 0.872);
+        /* color: rgba(0, 0, 0, 0.872); */
     }
 
     @media screen and (max-width: 551px) {
@@ -908,7 +917,7 @@
     .about-dis p {
         font-size: 18px;
         text-align: start;
-        color: rgba(0, 0, 0, 0.819);
+        /* color: rgba(0, 0, 0, 0.819); */
     }
 
     @media (min-width: 768px) and (max-width: 953.5px) {
@@ -1033,7 +1042,7 @@
         font-size: 18px;
         text-align: start;
         line-height: 1.5rem;
-        color: rgba(0, 0, 0, 0.785);
+        /* color: rgba(0, 0, 0, 0.785); */
     }
 
     @media (min-width: 993px) and (max-width: 1121px) {

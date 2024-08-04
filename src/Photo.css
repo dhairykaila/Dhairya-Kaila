@@ -13,7 +13,39 @@
 .heading-photo h1 {
     font-size: 3rem;
     font-weight: 500;
+    color: #FAFAFA;
 }
+.heading-photo p{
+    color: rgba(240, 248, 255, 0.538);
+}
+
+
+/*-------------------------------- All photo */
+.All-Photo-main{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+.photos{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.photo-container{
+    background-color: #3B3B3B;
+    margin-top: 25px;
+    border-radius: 20px;
+    display: inline;
+}
+.photo-container img{
+    width: 350px;
+    padding: 8px;
+}
+
+.certi-Photo img{
+    border-radius: 20px;
+}
+
 
 
 @media screen and (max-width: 575.5px) {
@@ -38,19 +70,36 @@
 
     @media screen and (max-width: 381px) {}
 
-    @media screen and (max-width: 371px) {}
+    @media screen and (max-width: 371px) {
+        .photo-container img{
+            width: 320px;
+            padding: 7px;
+        }
+    }
 
     @media screen and (max-width: 361px) {}
 
     @media screen and (max-width: 351px) {}
 
-    @media screen and (max-width: 341px) {}
+    @media screen and (max-width: 341px) {
+        .photo-container img{
+            width: 290px;
+            padding: 7px;
+        }
+    }
 
-    @media screen and (max-width: 331px) {}
+    @media screen and (max-width: 331px) {
+
+    }
 
     @media screen and (max-width: 321px) {}
 
-    @media screen and (max-width: 311px) {}
+    @media screen and (max-width: 311px) {
+        .photo-container img{
+            width: 270px;
+            padding: 7px;
+        }
+    }
 
     @media screen and (max-width: 301px) {}
 }

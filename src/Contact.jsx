@@ -14,6 +14,7 @@ import 'aos/dist/aos.css';
 
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Footer from "./Footer";
 
 function Contact() {
 
@@ -64,7 +65,6 @@ function Contact() {
                     <h1>Contact</h1>
                 </div>
                 <section id="section5" data-aos="zoom-in">
-
                     <div class="contact">
                         <div class="location-area" data-aos="fade-right">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118147.80351149273!2d70.82129635!3d22.27348695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959c98ac71cdf0f%3A0x76dd15cfbe93ad3b!2sRajkot%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1707225350885!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -150,6 +150,7 @@ function Contact() {
                     <a href="#"><img id="con-i5" src={linkedin} alt="" /></a>
                 </div>
             </div> */}
+            <Footer/>
             </>
         );
     }

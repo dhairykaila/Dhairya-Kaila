@@ -1,0 +1,106 @@
+.Photo-nav::-webkit-scrollbar {
+    display: none;
+}
+
+.Photo-nav {
+    overflow-y: scroll;
+}
+
+.Photo-nav ul{
+    /* background-color: rgb(102, 255, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+.active{
+    background-color: #3B3B3B;
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+
+.Photo-nav li{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+.nl{ 
+    background-color: #3b3b3b69;
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+
+.nav-link {
+    margin-left: 15px;
+}
+
+
+
+@media screen and (max-width: 575.5px) {
+
+    .photo-main {
+        margin-top: 0rem;
+    }
+
+    @media screen and (max-width: 551px) {}
+
+    @media screen and (max-width: 531px) {}
+
+    @media screen and (max-width: 500px) {}
+
+    @media screen and (max-width: 491px) {}
+
+    @media screen and (max-width: 446px) {}
+
+    @media screen and (max-width: 421px) {}
+
+
+
+    @media screen and (max-width: 381px) {}
+
+    @media screen and (max-width: 371px) {
+        
+    }
+
+    @media screen and (max-width: 361px) {}
+
+    @media screen and (max-width: 351px) {}
+
+    @media screen and (max-width: 341px) {
+        
+    }
+
+    @media screen and (max-width: 331px) {
+        .nav-link {
+            margin-left: 5px;
+        }
+    }
+
+    @media screen and (max-width: 321px) {
+        .active{
+            background-color: #3B3B3B;
+            padding: 1px 10px;
+            border-radius: 10px;
+        }
+        
+        .Photo-nav li{
+            display: inline;
+            justify-content: center;
+            align-items: center;
+        }
+        .nl{ 
+            background-color: #3b3b3b69;
+            padding: 1px 10px;
+            border-radius: 10px;
+        }
+        
+        .nav-link {
+            margin-left: 3px;
+        }
+    }
+
+    @media screen and (max-width: 311px) {}
+
+    @media screen and (max-width: 301px) {}
+}

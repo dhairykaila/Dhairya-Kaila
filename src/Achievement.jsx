@@ -12,6 +12,7 @@ import linkedin from './img/icons8-linkedin-48.png';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Footer from "./Footer";
 
 const Achievement = () => {
     useEffect(() => {
@@ -103,6 +104,7 @@ const Achievement = () => {
                     <a href="#"><img id="achi-i5" src={linkedin} alt="" /></a>
             </div>
             </div> */}
+            <Footer/>
         </>
     );
 }

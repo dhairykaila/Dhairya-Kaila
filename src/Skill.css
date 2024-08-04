@@ -17,6 +17,10 @@
 .heading-skill h1 {
     font-size: 3rem;
     font-weight: 500;
+    color: #FAFAFA;
+}
+.heading-skill p{
+    color: rgba(240, 248, 255, 0.538);
 }
 
 .skill-languages {
@@ -32,7 +36,7 @@
 .skill-languages p {
     width: 3rem;
     height: 1.5rem;
-    color: rgb(0, 0, 0);
+    color: #FAFAFA;
     padding-left: 1rem;
     /* border: #3d557a solid; */
 }
@@ -123,7 +127,7 @@
     #prog-python,
     #prog-dbms,
     #prog-c {
-        background-color: rgba(209, 209, 209, 0.769);
+        background-color: rgba(209, 209, 209, 0.677);
     }
 
     #skill-html,
@@ -138,7 +142,7 @@
     }
 
     p {
-        color: rgba(80, 75, 75, 0.79);
+        color: rgba(240, 248, 255, 0.538);
     }
 }
 
@@ -221,7 +225,7 @@
     #skill-c {
         width: 65%;
         height: 15px;
-        background-color: rgb(82, 82, 82);
+        /* background-color: rgb(82, 82, 82); */
         margin-left: 0rem;
         border-radius: 10px;
         /* background-color: black; */
@@ -237,7 +241,7 @@
     #prog-c {
         /* width: 85%; */
         height: 15px;
-        background-color: rgba(255, 255, 255, 0.769);
+        /* background-color: rgba(255, 255, 255, 0.769); */
         border-radius: 10px;
     }
 
@@ -274,7 +278,7 @@
         width: 90%;
     }
 
-    #html:hover,
+    /* #html:hover,
     #css:hover,
     #php:hover,
     #js:hover,
@@ -308,7 +312,7 @@
         p {
             color: rgba(80, 75, 75, 0.79);
         }
-    }
+    } */
 
     @media screen and (max-width: 551px) {
 
@@ -418,7 +422,7 @@
         #skill-c {
             width: 80%;
             height: 15px;
-            background-color: rgb(82, 82, 82);
+            /* background-color: rgb(82, 82, 82); */
             margin-left: -3rem;
             border-radius: 10px;
             /* background-color: black; */
@@ -605,7 +609,7 @@
     #skill-c {
         width: 70%;
         height: 15px;
-        background-color: rgb(82, 82, 82);
+        /* background-color: rgb(82, 82, 82); */
         margin-left: 4rem;
         border-radius: 10px;
     }
@@ -647,7 +651,7 @@
         #skill-c {
             width: 70%;
             height: 15px;
-            background-color: rgb(82, 82, 82);
+            /* background-color: rgb(82, 82, 82); */
             margin-left: 4rem;
             border-radius: 10px;
         }
@@ -680,7 +684,7 @@
         #skill-c {
             width: 70%;
             height: 15px;
-            background-color: rgb(82, 82, 82);
+            /* background-color: rgb(82, 82, 82); */
             margin-left: 4rem;
             border-radius: 10px;
         }
@@ -713,7 +717,7 @@
         #skill-c {
             width: 70%;
             height: 15px;
-            background-color: rgb(82, 82, 82);
+            /* background-color: rgb(82, 82, 82); */
             margin-left: 4rem;
             border-radius: 10px;
         }
@@ -747,7 +751,7 @@
     #skill-c {
         width: 70%;
         height: 15px;
-        background-color: rgb(82, 82, 82);
+        /* background-color: rgb(82, 82, 82); */
         margin-left: 4rem;
         border-radius: 10px;
     }

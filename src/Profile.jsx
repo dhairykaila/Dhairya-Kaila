@@ -2,11 +2,11 @@ import React, { useEffect } from "react";
 import Navbar from "./Navbar.jsx";
 import './Profile.css';
 import myPhoto from './img/myphoto1.jpg';
-import facebook from './img/facebook.png';
-import github from './img/github.png';
-import instagram from './img/instagram.png';
-import twitter from './img/twitter.png';
-import linkedin from './img/linkedin.png';
+import facebook from './img/wfacebook.png';
+import github from './img/wgithub.png';
+import instagram from './img/winsta.png';
+import twitter from './img/wx.png';
+import linkedin from './img/wlinkedin.png';
 
 
 import AOS from 'aos';
