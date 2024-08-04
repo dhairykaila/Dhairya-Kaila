@@ -1,29 +1,33 @@
 {
   "files": {
-    "main.css": "/Dhairya-Kaila/static/css/main.2ebde04a.css",
-    "main.js": "/Dhairya-Kaila/static/js/main.5f06a22a.js",
+    "main.css": "/Dhairya-Kaila/static/css/main.5bcd3ff7.css",
+    "main.js": "/Dhairya-Kaila/static/js/main.904a2105.js",
     "static/js/592.14833a96.chunk.js": "/Dhairya-Kaila/static/js/592.14833a96.chunk.js",
+    "static/media/Picture2111.png": "/Dhairya-Kaila/static/media/Picture2111.5dd8665226719b38b6fc.png",
     "static/media/Picture556.png": "/Dhairya-Kaila/static/media/Picture556.854ceaf316a344792adc.png",
+    "static/media/Frame 11.png": "/Dhairya-Kaila/static/media/Frame 11.da3a5d80164b8158b740.png",
+    "static/media/Picture134.png": "/Dhairya-Kaila/static/media/Picture134.eaa54493a23f8d16a59d.png",
+    "static/media/Picture1546.png": "/Dhairya-Kaila/static/media/Picture1546.53747f553284cf863122.png",
     "static/media/Picture54.png": "/Dhairya-Kaila/static/media/Picture54.21c9071d7c4af971afe3.png",
     "static/media/myphoto1.jpg": "/Dhairya-Kaila/static/media/myphoto1.e2593bf9ebe67b37dd1d.jpg",
     "static/media/newPicture3.png": "/Dhairya-Kaila/static/media/newPicture3.5c62561b410e3dda0e47.png",
     "static/media/newPicture2.png": "/Dhairya-Kaila/static/media/newPicture2.22a617bc1f92315d7d2f.png",
+    "static/media/MacBook Pro 16.png": "/Dhairya-Kaila/static/media/MacBook Pro 16.924a6a24f4bac4f1566a.png",
+    "static/media/cerit3.jpeg": "/Dhairya-Kaila/static/media/cerit3.d8e2e7fb90fa0b435b87.jpeg",
+    "static/media/certi2.jpeg": "/Dhairya-Kaila/static/media/certi2.8dd6f96d95a6c387288b.jpeg",
     "static/media/projgoogle.png": "/Dhairya-Kaila/static/media/projgoogle.46641696927a0b7cbaea.png",
     "static/media/Screenshot160.png": "/Dhairya-Kaila/static/media/Screenshot160.9d69891194b5cc6d3f34.png",
-    "static/media/github.png": "/Dhairya-Kaila/static/media/github.9e094d235b4caa7c31fc.png",
+    "static/media/certi1.jpeg": "/Dhairya-Kaila/static/media/certi1.1ffd4b9cf3e78fb77739.jpeg",
+    "static/media/certi4.jpeg": "/Dhairya-Kaila/static/media/certi4.c6c8c0124894aebc8238.jpeg",
+    "static/media/MacBook Air.png": "/Dhairya-Kaila/static/media/MacBook Air.277ac081074b813d1a53.png",
     "static/media/WhatsApp Image 2024-01-30 at 19.42.55_b0b6712b-modified.jpg": "/Dhairya-Kaila/static/media/WhatsApp Image 2024-01-30 at 19.42.55_b0b6712b-modified.d1cd1f8ca6260ab02fc4.jpg",
-    "static/media/twitter.png": "/Dhairya-Kaila/static/media/twitter.3b89a55781e4fbd2bced.png",
-    "static/media/instagram.png": "/Dhairya-Kaila/static/media/instagram.776d16d0e9daa177afd5.png",
-    "static/media/facebook.png": "/Dhairya-Kaila/static/media/facebook.6789480e8d1a49204eba.png",
-    "static/media/map.png": "/Dhairya-Kaila/static/media/map.448fe8be6f2a2ccb451d.png",
-    "static/media/linkedin.png": "/Dhairya-Kaila/static/media/linkedin.92380c03cc82f139a166.png",
     "index.html": "/Dhairya-Kaila/index.html",
-    "main.2ebde04a.css.map": "/Dhairya-Kaila/static/css/main.2ebde04a.css.map",
-    "main.5f06a22a.js.map": "/Dhairya-Kaila/static/js/main.5f06a22a.js.map",
+    "main.5bcd3ff7.css.map": "/Dhairya-Kaila/static/css/main.5bcd3ff7.css.map",
+    "main.904a2105.js.map": "/Dhairya-Kaila/static/js/main.904a2105.js.map",
     "592.14833a96.chunk.js.map": "/Dhairya-Kaila/static/js/592.14833a96.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ebde04a.css",
-    "static/js/main.5f06a22a.js"
+    "static/css/main.5bcd3ff7.css",
+    "static/js/main.904a2105.js"
   ]
 }
